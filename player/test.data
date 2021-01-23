@@ -1,0 +1,13 @@
+@frame_data {
+	u32 index
+	f32 duration
+}
+@anim_data { 
+	name: str
+	frames: vec<frame_data>
+	repeat: bool 
+}
+size: vec2i
+texture: str
+animations: vec<anim_data>
+initial-state: str

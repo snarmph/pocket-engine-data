@@ -1,0 +1,79 @@
+{
+    "size": {
+      "x": 16,
+      "y": 24
+    },
+    "texture": "data/sprites/red.png",
+  "animations": [
+    {
+      "name": "walk-down",
+      "frames": [
+        [ 0, 0.15 ],
+        [ 1, 0.15 ],
+        [ 2, 0.15 ],
+        [ 1, 0.15 ]
+      ],
+      "repeat": true
+    },
+    {
+      "name": "walk-up",
+      "frames": [
+        [ 6, 0.15 ],
+        [ 7, 0.15 ],
+        [ 8, 0.15 ],
+        [ 7, 0.15 ]
+      ],
+      "repeat": true
+    },
+    {
+      "name": "walk-left",
+      "frames": [
+        [ 12, 0.15 ],
+        [ 13, 0.15 ],
+        [ 14, 0.15 ],
+        [ 13, 0.15 ]
+      ],
+      "repeat": true
+    },
+    {
+      "name": "walk-right",
+      "frames": [
+        [ 18, 0.15 ],
+        [ 19, 0.15 ],
+        [ 20, 0.15 ],
+        [ 19, 0.15 ]
+      ],
+      "repeat": true
+    },
+    {
+      "name": "look-down",
+      "frames": [
+        [ 1, 0.15 ]
+      ],
+      "repeat": false
+    },
+    {
+      "name": "look-up",
+      "frames": [
+        [ 7, 0.15 ]
+      ],
+      "repeat": false
+    },
+    {
+      "name": "look-left",
+      "frames": [
+        [ 13, 0.15 ]
+      ],
+      "repeat": false
+    },
+    {
+      "name": "look-right",
+      "frames": [
+        [ 19, 0.15 ]
+      ],
+      "repeat": false
+    }
+  ],
+  "initial-state": "look-down"
+
+}

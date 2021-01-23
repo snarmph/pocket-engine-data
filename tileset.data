@@ -1,0 +1,27 @@
+@animation_data {
+    index: u32
+    duration: f32
+}
+
+@animation_index {
+    layer: u32
+    indices: vec<u32>
+}
+
+@animation_t {
+    index_data: vec<animation_index>
+    animation: vec<animation_data>
+}
+
+@tileset_t {
+    filename: str
+    tilesize: f32
+}
+
+@tilemap {
+    animations: vec<animation_t>
+    layers: vec<vec<u32>>
+    tileset: tileset_t
+    width: u32
+    height: u32
+}
