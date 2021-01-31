@@ -1,0 +1,17 @@
+{
+  "tilemap": "data/maps/route-1",
+  "name": "Route 1",
+  "is_first": false,
+  "position": {
+    "x": 0,
+    "y": -1
+  },
+  "entities": [
+    {
+      "position": {
+        "x": 12,
+        "y": 6
+      }
+    }
+  ]
+}

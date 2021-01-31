@@ -1,0 +1,23 @@
+{
+  "tilemap": "data/maps/pallet-town",
+  "name": "Pallet Town",
+  "is_first": true,
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "entities": [
+    {
+      "position": {
+        "x": 12,
+        "y": 6
+      }
+    },
+    {
+      "position": {
+        "x": 12,
+        "y": 10
+      }
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="tileset-blackvolution" tilewidth="16" tileheight="16" tilecount="896" columns="8">
+<tileset version="1.2" tiledversion="1.3.3" name="tileset-blackvolution" tilewidth="16" tileheight="16" tilecount="896" columns="8">
  <image source="../tilesets/tileset-blackvolution.png" width="128" height="1800"/>
  <terraintypes>
   <terrain name="path1" tile="0"/>
+  <terrain name="path2" tile="-1"/>
  </terraintypes>
  <tile id="4">
   <animation>
@@ -15,14 +16,27 @@
  <tile id="208" terrain=",,,0"/>
  <tile id="209" terrain=",,0,0"/>
  <tile id="210" terrain=",,0,"/>
+ <tile id="211" terrain=",,,1"/>
+ <tile id="212" terrain=",,1,1"/>
+ <tile id="213" terrain=",,1,"/>
  <tile id="216" terrain=",0,,0"/>
  <tile id="217" terrain="0,0,0,0"/>
  <tile id="218" terrain="0,,0,"/>
+ <tile id="219" terrain=",1,,1"/>
+ <tile id="220" terrain="1,1,1,1"/>
+ <tile id="221" terrain="1,,1,"/>
  <tile id="224" terrain=",0,,"/>
  <tile id="225" terrain="0,0,,"/>
  <tile id="226" terrain="0,,,"/>
+ <tile id="227" terrain=",1,,"/>
+ <tile id="228" terrain="1,1,,"/>
+ <tile id="229" terrain="1,,,"/>
  <tile id="254" terrain=",0,0,0"/>
  <tile id="255" terrain="0,,0,0"/>
+ <tile id="258" terrain=",1,1,1"/>
+ <tile id="259" terrain="1,,1,1"/>
+ <tile id="260" terrain="1,1,,1"/>
+ <tile id="261" terrain="1,1,1,"/>
  <tile id="262" terrain="0,0,,0"/>
  <tile id="263" terrain="0,0,0,"/>
  <tile id="312">
